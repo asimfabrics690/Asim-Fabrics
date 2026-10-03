@@ -1,0 +1,6 @@
+{
+  "name": "ASIM FABRICS - Home Textile & Decor",
+  "description": "Official online store for ASIM FABRICS. Premium export quality 76x68 cotton bedsheets, printed fabrics, home textiles, and wholesale orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
