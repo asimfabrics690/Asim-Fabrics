@@ -1,3 +1,9 @@
+import heroBedroomImg from '../assets/images/hero_luxury_bedroom_1791034123929.jpg';
+import bedsheetsShowcaseImg from '../assets/images/category_bedsheets_showcase_1791034139014.jpg';
+import cottonFabricRollsImg from '../assets/images/category_cotton_fabric_rolls_1791034153002.jpg';
+import maroonJacquardSetImg from '../assets/images/product_maroon_jacquard_set_1791034172611.jpg';
+import workshopImg from '../assets/images/textile_craftsmanship_workshop_1791034188258.jpg';
+
 export interface Product {
   id: string;
   name: string;
@@ -49,7 +55,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'king-size-bedsheets',
     description: 'Grand master suite bedding crafted from fine 76×68 combed export cotton with matching pillowcases.',
     itemCount: 18,
-    image: '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+    image: maroonJacquardSetImg,
     featuredBadge: 'Most Popular',
   },
   {
@@ -58,7 +64,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'double-bedsheets',
     description: 'Balanced comfort & daily durability for guest rooms and family suites in contemporary prints.',
     itemCount: 24,
-    image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+    image: bedsheetsShowcaseImg,
   },
   {
     id: 'single-bedsheets',
@@ -66,7 +72,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'single-bedsheets',
     description: 'Crisp, breathable pure cotton single bedsheets tailored for youth bedrooms and hostels.',
     itemCount: 14,
-    image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+    image: bedsheetsShowcaseImg,
   },
   {
     id: 'cotton-fabric',
@@ -74,7 +80,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'cotton-fabric',
     description: 'Certified 76×68 greige & dyed export quality cotton rolls sold per meter or bulk commercial bolts.',
     itemCount: 32,
-    image: '/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg',
+    image: cottonFabricRollsImg,
     featuredBadge: 'Wholesale Ready',
   },
   {
@@ -83,7 +89,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'printed-fabric',
     description: 'Colorfast reactive rotary prints featuring heritage motifs, floral vines, and contemporary geometrics.',
     itemCount: 26,
-    image: '/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg',
+    image: cottonFabricRollsImg,
   },
   {
     id: 'home-textile-articles',
@@ -91,7 +97,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'home-textile-articles',
     description: 'Quilted bedcovers, lightweight dohars, plush duvet shells, and luxury waffle blankets.',
     itemCount: 16,
-    image: '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
+    image: heroBedroomImg,
   },
   {
     id: 'home-decor',
@@ -99,7 +105,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'home-decor-products',
     description: 'Embroidered decorative cushion covers, luxury table runners, and artisanal linen drapery.',
     itemCount: 19,
-    image: '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+    image: maroonJacquardSetImg,
   },
 ];
 
@@ -125,10 +131,10 @@ export const PRODUCTS: Product[] = [
     dimensions: 'King Sheet: 96" × 102" | 2 Pillow Covers: 19" × 29"',
     material: '100% Export Grade Cotton',
     threadDensity: '76×68 Export Standard',
-    image: '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+    image: maroonJacquardSetImg,
     alternateImages: [
-      '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
-      '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+      heroBedroomImg,
+      bedsheetsShowcaseImg,
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -164,10 +170,10 @@ export const PRODUCTS: Product[] = [
     dimensions: 'Double Sheet: 90" × 95" | 2 Pillow Covers: 19" × 29"',
     material: '100% Export Quality Cotton',
     threadDensity: '76×68 Pure Cotton',
-    image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+    image: bedsheetsShowcaseImg,
     alternateImages: [
-      '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
-      '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+      heroBedroomImg,
+      maroonJacquardSetImg,
     ],
     isFeatured: true,
     isBestSeller: false,
@@ -203,8 +209,8 @@ export const PRODUCTS: Product[] = [
     dimensions: 'Single Sheet: 60" × 95" | 1 Pillow Cover: 19" × 29"',
     material: '100% Cotton Weave',
     threadDensity: '76×68 Export Standard',
-    image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
-    alternateImages: ['/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg'],
+    image: bedsheetsShowcaseImg,
+    alternateImages: [maroonJacquardSetImg],
     isFeatured: false,
     isBestSeller: false,
     isNewArrival: true,
@@ -240,9 +246,9 @@ export const PRODUCTS: Product[] = [
     dimensions: 'Width: 96 inches (Seamless) | Sold per meter or per roll',
     material: '100% Raw/Dyed Pakistani Cotton',
     threadDensity: '76×68 Precision Weave',
-    image: '/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg',
+    image: cottonFabricRollsImg,
     alternateImages: [
-      '/src/assets/images/textile_craftsmanship_workshop_1791034188258.jpg',
+      workshopImg,
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -279,9 +285,9 @@ export const PRODUCTS: Product[] = [
     dimensions: 'Width: 94 inches | Sold per meter',
     material: '100% Cotton Printed Fabric',
     threadDensity: '76×68 Export Standard',
-    image: '/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg',
+    image: cottonFabricRollsImg,
     alternateImages: [
-      '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+      bedsheetsShowcaseImg,
     ],
     isFeatured: true,
     isBestSeller: false,
@@ -316,9 +322,9 @@ export const PRODUCTS: Product[] = [
     dimensions: 'King Quilt: 98" × 104" | 2 Pillow Shams: 20" × 30"',
     material: '100% Cotton Shell with Microfiber Core',
     threadDensity: '76×68 Shell Fabric',
-    image: '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
+    image: heroBedroomImg,
     alternateImages: [
-      '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+      maroonJacquardSetImg,
     ],
     isFeatured: true,
     isBestSeller: true,
@@ -353,9 +359,9 @@ export const PRODUCTS: Product[] = [
     dimensions: '18" × 18" (Standard Square)',
     material: 'Heavy Weight Cotton Blend',
     threadDensity: 'Custom Heavy Decor Weave',
-    image: '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+    image: maroonJacquardSetImg,
     alternateImages: [
-      '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
+      heroBedroomImg,
     ],
     isFeatured: false,
     isBestSeller: true,
@@ -390,9 +396,9 @@ export const PRODUCTS: Product[] = [
     dimensions: 'King Sheet: 96" × 102" | 2 Pillow Covers: 19" × 29"',
     material: '100% Mercerized Combed Cotton',
     threadDensity: '76×68 Jacquard Weave',
-    image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+    image: bedsheetsShowcaseImg,
     alternateImages: [
-      '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
+      heroBedroomImg,
     ],
     isFeatured: false,
     isBestSeller: false,

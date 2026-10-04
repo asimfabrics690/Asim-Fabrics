@@ -1,6 +1,7 @@
 import React from 'react';
 import { AsimLogoMark } from './AsimLogo';
 import { Sparkles, Check, ArrowRight } from 'lucide-react';
+import workshopImg from '../assets/images/textile_craftsmanship_workshop_1791034188258.jpg';
 
 interface BrandStoryProps {
   onExploreCollection: () => void;
@@ -19,7 +20,7 @@ export const BrandStorySection: React.FC<BrandStoryProps> = ({
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-[#EFE7DA] bg-white aspect-4/3 sm:aspect-16/11">
               <img
-                src="/src/assets/images/textile_craftsmanship_workshop_1791034188258.jpg"
+                src={workshopImg}
                 alt="ASIM FABRICS Weaving and Finishing Workshop"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"

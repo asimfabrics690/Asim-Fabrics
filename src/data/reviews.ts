@@ -1,3 +1,6 @@
+import maroonJacquardSetImg from '../assets/images/product_maroon_jacquard_set_1791034172611.jpg';
+import cottonFabricRollsImg from '../assets/images/category_cotton_fabric_rolls_1791034153002.jpg';
+
 export interface Review {
   id: string;
   productId: string;
@@ -47,7 +50,7 @@ export const INITIAL_SAMPLE_REVIEWS: Review[] = [
       'The deep maroon shade is true royal quality. You can instantly feel the thickness of the 76×68 combed cotton compared to regular market bedsheets. Even after two gentle washes, the embroidery and gold cord remain pristine.',
     verifiedPurchase: true,
     isSampleReview: true,
-    photos: ['/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg'],
+    photos: [maroonJacquardSetImg],
     helpfulYes: 24,
     helpfulNo: 1,
   },
@@ -90,7 +93,7 @@ export const INITIAL_SAMPLE_REVIEWS: Review[] = [
       'We tested the fabric weight and tensile strength at our tailoring workshop. Warp and weft counts match the 76×68 export standard exactly. Prompt courier delivery to Faisalabad.',
     verifiedPurchase: true,
     isSampleReview: true,
-    photos: ['/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg'],
+    photos: [cottonFabricRollsImg],
     helpfulYes: 31,
     helpfulNo: 0,
   },

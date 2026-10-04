@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles, ShieldCheck, Layers, PhoneCall } from 'lucide-react';
 import { AsimLogoMark } from './AsimLogo';
+import heroBedroomImg from '../assets/images/hero_luxury_bedroom_1791034123929.jpg';
 
 interface HeroSectionProps {
   onExplore: () => void;
@@ -89,7 +90,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Main Image Frame */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-white aspect-4/3 sm:aspect-16/10">
                 <img
-                  src="/src/assets/images/hero_luxury_bedroom_1791034123929.jpg"
+                  src={heroBedroomImg}
                   alt="ASIM FABRICS Luxury King Bedsheet Collection"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-700"

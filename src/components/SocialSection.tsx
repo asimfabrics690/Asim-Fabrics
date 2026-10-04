@@ -1,5 +1,9 @@
 import React from 'react';
 import { Instagram, Facebook, Video, Sparkles, ExternalLink } from 'lucide-react';
+import heroBedroomImg from '../assets/images/hero_luxury_bedroom_1791034123929.jpg';
+import cottonFabricRollsImg from '../assets/images/category_cotton_fabric_rolls_1791034153002.jpg';
+import maroonJacquardSetImg from '../assets/images/product_maroon_jacquard_set_1791034172611.jpg';
+import bedsheetsShowcaseImg from '../assets/images/category_bedsheets_showcase_1791034139014.jpg';
 
 export const SocialSection: React.FC = () => {
   const socialCards = [
@@ -8,7 +12,7 @@ export const SocialSection: React.FC = () => {
       handle: '@asimfabrics640',
       link: 'https://www.instagram.com/asimfabrics640',
       caption: 'Royal Maroon embroidered king suite in natural morning light. Pure 76×68 combed cotton perfection.',
-      image: '/src/assets/images/hero_luxury_bedroom_1791034123929.jpg',
+      image: heroBedroomImg,
       icon: <Instagram className="w-4 h-4" />,
     },
     {
@@ -16,7 +20,7 @@ export const SocialSection: React.FC = () => {
       handle: 'ASIM FABRICS Official',
       link: 'https://www.facebook.com/profile.php?id=61588468446149',
       caption: 'Fresh loom batch! 76×68 raw and dyed cotton fabric rolls ready for nationwide dispatch.',
-      image: '/src/assets/images/category_cotton_fabric_rolls_1791034153002.jpg',
+      image: cottonFabricRollsImg,
       icon: <Facebook className="w-4 h-4" />,
     },
     {
@@ -24,7 +28,7 @@ export const SocialSection: React.FC = () => {
       handle: '@asim.fabrics2',
       link: 'https://www.tiktok.com/@asim.fabrics2',
       caption: 'Watch how 76×68 export density resists wrinkles & tests against ordinary 68×68 cotton.',
-      image: '/src/assets/images/product_maroon_jacquard_set_1791034172611.jpg',
+      image: maroonJacquardSetImg,
       icon: <Video className="w-4 h-4" />,
     },
     {
@@ -32,7 +36,7 @@ export const SocialSection: React.FC = () => {
       handle: '@asimfabrics640',
       link: 'https://www.instagram.com/asimfabrics640',
       caption: 'Artisan hand-embroidery details: our signature 8-point cross-stitch cushion trio.',
-      image: '/src/assets/images/category_bedsheets_showcase_1791034139014.jpg',
+      image: bedsheetsShowcaseImg,
       icon: <Instagram className="w-4 h-4" />,
     },
   ];
